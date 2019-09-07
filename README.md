@@ -2,15 +2,8 @@
 
 
 ## Modelli
-- [Documentazione progetto](Modelli/ModelloDocProgettazione.md)
-- [Documentazione implementazione](Modelli/ModelloDocImplementazione.md)
+- [Documentazione progetto](Modelli/Documentazione.md)
 - [Diario](Modelli/ModelloDiario.md)
-
-
-## Guide
-- [GitHub CheatSheet](Guide/github-cheatsheet.pdf)
-- [MarkDown CheatSheet](Guide/markdownCheatSheet.md)
-- [Impostare ambiente di lavoro](Guide/ImpostareAmbienteLavoro.md)
 
 
 ## Link utili
@@ -22,8 +15,5 @@
 ## Progetti
 
 
-|Titolo                   |Autori             |Responsabile         |Link           |
-|:------------------------|:------------------|:--------------------|:--------------|
-
-Test
-
+|Titolo                   |Autori             |Responsabili         |Link           |
+|:Generatore di fiocchi di neve|:Julian Sprugasci|:Luca Muggiasca e Geo Petrini|:[Consegna](Modelli/ModelloDiario.md)|
