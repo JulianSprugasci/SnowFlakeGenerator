@@ -3,7 +3,7 @@
 
 ## Modelli
 - [Documentazione progetto](Modelli/Documentazione.md)
-- [Diario](Modelli/ModelloDiario.md)
+- [Diario](Diario)
 
 
 ## Link utili
