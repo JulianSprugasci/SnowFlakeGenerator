@@ -9,7 +9,7 @@
 |--------------|------------------------------|
 |19:00 - 20:00 |Creazione Documentazione e modifica dell'introduzione|
 |20:00 - 20:05 |Aggiunta consegna progetto e modifica      |
-|20:05 - 20:25 |Modifica del README                           |
+|20:05 - 20:30 |Modifica del README                           |
 
 ##  Problemi riscontrati e soluzioni adottate
 Nessun problema riscontrato durante questa giornata.
