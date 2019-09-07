@@ -14,6 +14,7 @@
 
 ## Progetti
 
-
-|Titolo                   |Autori             |Responsabili         |Link           |
-|:Generatore di fiocchi di neve|:Julian Sprugasci|:Luca Muggiasca e Geo Petrini|:[Consegna](Modelli/ModelloDiario.md)|
+- Titolo progetti: Generatore di fiocchi di neve
+- Autore: Julian Sprugasci
+- Docenti responsabili: Luca Muggiasca e Geo Petrini
+- Link: [Consegna](Progetti/GeneratoreFiocchiDiNeve_PrimoSemestre.pdf)
