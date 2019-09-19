@@ -119,7 +119,7 @@
 
 ### Analisi del dominio
 
-  I docenti supervisori che hanno stipolato le specifiche del progetto sono dalla parte del cliente e ci hanno consegnato un diario di lavoro. Il risultato finale, come spiegato nelle specifiche è un l'applicativo che ha il compito di generare un fiocco di neve.
+  I docenti supervisori che hanno stipolato le specifiche del progetto sono dalla parte del cliente e ci hanno consegnato un diario di lavoro. Il risultato finale, come spiegato nelle specifiche è un applicativo che ha il compito di generare un fiocco di neve.
   L'applicazione è stata implementata in Java quindi è facilmente supportata per qualsiasi computer con una versione di Java recente. Questo prodotto non esiste sul mercato e non è un prodotto progettato per importanti lavori ma solamente per il divertimento, fornendo a qualsiasi tipo di utente, esperto o neofita, una piacevole grafica e un semplice utilizzo. Una volta soddisfatti del risultato finale è possibile salvarlo in un'immagine all'interno del vostro Pc.
   L'applicazione potrà essere scaricata dal nostro sito web nel quale è presente una guida semplice e chiara su come utilizzare il prodotto e avviata tramite l'eseguibile.  
 
