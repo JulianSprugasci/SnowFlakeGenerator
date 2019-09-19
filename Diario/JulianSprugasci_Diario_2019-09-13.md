@@ -14,8 +14,9 @@
 Nessun problema riscontrato durante questa giornata.
 
 ##  Punto della situazione rispetto alla pianificazione
-Mancano alcuni requisiti
+Mancano alcuni requisiti.
 
 ## Programma di massima per la prossima giornata di lavoro
-Andare avanti coi requisiti e iniziare il Gantt
+1. Iniziare il Gantt
+1. Continuare con la programmazione dell'applicazione
 
