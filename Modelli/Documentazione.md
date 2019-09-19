@@ -51,7 +51,6 @@
 
 ### Informazioni sul progetto
 
-  In questo capitolo raccogliere le informazioni relative al progetto, ad esempio:
 
   -   Allievo coinvolto: Julian Sprugasci (Programmatore)
 
@@ -108,10 +107,6 @@
   > design such a large-scale microprocessor in just weeks.*
 
 ### Scopo
-
-  Lo scopo del progetto (scopi didattici/scopi operativi). Dovrebbe
-  descrivere il mandato, ma non vanno ricopiate le informazioni del
-  quaderno dei compiti (che va invece allegato).
 
   Questo progetto ha lo scopo didattico principale di imparare a gestire in modo individuale
   un progetto IT. Per fare ciò dobbiamo ricorrere a tutte nozioni apprese durante
