@@ -53,11 +53,11 @@
 
   In questo capitolo raccogliere le informazioni relative al progetto, ad esempio:
 
-  -   Allievo coinvolto: Julian Sprugasci
+  -   Allievo coinvolto: Julian Sprugasci (Programmatore)
 
   -   Docenti responsabili: Luca Muggiasca e Geo Petrini
 
-  -   Scuola: SAMT Trevano Sezione Informatica
+  -   Scuola: SAMT Trevano - Sezione Informatica
 
   -   Classe: I3AC
 
@@ -113,34 +113,21 @@
   descrivere il mandato, ma non vanno ricopiate le informazioni del
   quaderno dei compiti (che va invece allegato).
 
+  Questo progetto ha lo scopo didattico principale di imparare a gestire in modo individuale
+  un progetto IT. Per fare ciò dobbiamo ricorrere a tutte nozioni apprese durante
+  la nostra formazione, utilizzando molti aspetti visti in varie materie, come per
+  esempio la creazione e gestione di un Gantt oppure la creazione di una applicazione
+  con il linguaggio Java. L'altro scopo di questo progetto è quello di creare un applicativo che rappresenta un triangolo di "carta", su cui tramite dei tagli consecutivi possa creare un fiocco di neve.
+
 
 ## Analisi
 
 ### Analisi del dominio
 
-  Questo capitolo dovrebbe descrivere il contesto in cui il prodotto verrà
-  utilizzato, da questa analisi dovrebbero scaturire le risposte a quesiti
-  quali ad esempio:
+  I docenti supervisori che hanno stipolato le specifiche del progetto sono dalla parte del cliente e ci hanno consegnato un diario di lavoro. Il risultato finale, come spiegato nelle specifiche è un l'applicativo che ha il compito di generare un fiocco di neve.
+  L'applicazione è stata implementata in Java quindi è facilmente supportata per qualsiasi computer con una versione di Java recente. Questo prodotto non esiste sul mercato e non è un prodotto progettato per importanti lavori ma solamente per il divertimento, fornendo a qualsiasi tipo di utente, esperto o neofita, una piacevole grafica e un semplice utilizzo. Una volta soddisfatti del risultato finale è possibile salvarlo in un'immagine all'interno del vostro Pc.
+  L'applicazione potrà essere scaricata dal nostro sito web nel quale è presente una guida semplice e chiara su come utilizzare il prodotto e avviata tramite l'eseguibile.  
 
-  -   Background/Situazione iniziale
-
-  -   Quale è e come è organizzato il contesto in cui il prodotto dovrà
-      funzionare?
-
-  -   Come viene risolto attualmente il problema? Esiste già un prodotto
-      simile?
-
-  -   Chi sono gli utenti? Che bisogni hanno? Come e dove lavorano?
-
-  -   Che competenze/conoscenze/cultura posseggono gli utenti in relazione
-      con il problema?
-
-  -   Esistono convenzioni/standard applicati nel dominio?
-
-  -   Che conoscenze teoriche bisogna avere/acquisire per poter operare
-      efficacemente nel dominio?
-
-  -   …
 
 ### Analisi e specifica dei requisiti
 
@@ -181,11 +168,156 @@
 
 
 
-  |**ID**	|**Nome**			|**Priorità**|**Vers**|**Note**  |
-  |----|------------|--------|----|------|
-  |Req-12|Dovrà esserci una maschera di login|1|1.0|...|
-  |Req-13|Si dovranno poter immettere nuovi allievi|1|1.0|...|
-  |Req-14|Dovrà essere possibile la ricerca di allievi|1|1.0|...|
+  |**ID**       |Req - 001                                                                          |
+  |------------------|---------------------------------------------------------|
+  |**Nome** |L'applicativo deve essere in Java o in JS.<div style="width:850px;"></div>                        |
+  |**Priorità**      |1                                                                           |
+  |**Versione**      |1.0                                                                         |
+  |**Note**          |                                                                            |
+  ||**Sotto requisiti**                                                        |
+  |001|Se fatto in Java, necessita di un sito web con descrizione e download.   |
+  |002|Se fatto in JS, necessita un sito web che ospiti l'applicativo.          |
+
+  |**ID**       |Req - 002                                                                          |
+  |------------------|---------------------------------------------------------|
+  |**Nome** |Deve esserci una interfaccia grafica.<div style="width:850px;"></div>                         |
+  |**Priorità**      |1                                                                           |
+  |**Versione**      |1.0                                                                         |
+  |**Note**          |                                                                            |
+  ||**Sotto requisiti**                                                        |
+  |001|La finestra deve essere ridimensionabile. |
+  |002|Le dimensioni minime per la finestra sono di 1024X768                   |
+
+  |**ID**       |Req - 003                                                                          |
+  |------------------|---------------------------------------------------------|
+  |**Nome** |L'area di lavoro deve essere un triangolo la cui grandezza è il 50% della finestra.<div style="width:850px;"></div>                       |
+  |**Priorità** |1                                                                           |
+  |**Versione**      |1.0                                                                         |
+  |**Note**          |                                                                            |
+  ||**Sotto requisiti**                                                        |
+  |001|Il triangolo deve sempre essere centrato.   |                                                                    
+
+  |**ID**       |Req - 004                                                                          |
+  |------------------|---------------------------------------------------------|
+  |**Nome** |I tagli del triangolo devono avvenire tramite un click del mouse.<div style="width:850px;"></div>                    |
+  |**Priorità** |1                                                                           |
+  |**Versione**      |1.0                                                                         |
+  |**Note**          |                                                                            |
+  ||**Sotto requisiti**                                                        |
+  |001|Una volta chiuso il poligono il punto di chiusura deve essere verde.   |
+  |002|Ci possono essere uno o più poligoni.   |
+  |003|Non ci sono limiti per quanto riguarda la quantità di punti. Ovviamente ci si aspetta un certo buon senso da parte dell'utente.   |
+
+
+  |**ID**       |Req - 005                                                                          |
+  |------------------|---------------------------------------------------------|
+  |**Nome** |Deve essere possibile resettare i punti di taglio. <div style="width:850px;"></div>                      |
+  |**Priorità** |1                                                                           |
+  |**Versione**      |1.0                                                                         |
+  |**Note**          | |                                                                          |
+
+  |**ID**       |Req - 006                                                                          |
+  |------------------|---------------------------------------------------------|
+  |**Nome** |Deve essere presente un tasto che permette di generare il fiocco di neve.<div style="width:850px;"></div>                       |
+  |**Priorità** |1                                                                           |
+  |**Versione**      |1.0                                                                         |
+  |**Note**          | |                                                                          |
+
+
+  |**ID**       |Req -  007                                                                          |
+  |------------------|------------------------------------------------------------|
+  |**Nome** |La generazione del fiocco deve avvenire in tempo reale. Ovvero che ad ogni modifica dei punti l'immagine del fiocco cambia di conseguenza. <div style="width:850px;"></div>         |
+  |**Priorità** |2                                                                           |
+  |**Versione**      |1.0                                                                         |
+  |**Note**          |                                                                            |
+  ||**Sotto requisiti**                                                        |
+  |001|Si può inserire questa funzione tramite un bottone.   |
+
+
+
+  |**ID**       |Req - 008                                                                          |
+  |------------------|---------------------------------------------------------|
+  |**Nome** |I punti di taglio possono essere spostati o rimossi.<div style="width:850px;"></div>                       |
+  |**Priorità** |2                                                                           |
+  |**Versione**      |1.0                                                                         |
+  |**Note**          |                                                                            |
+  ||**Sotto requisiti**                                                        |
+  |001|Con tasto sinistro i punti possono essere spostati.|
+  |002|Con tasto destro i punti possono essere rimossi.|
+
+
+  |**ID**       |Req - 009                                                                         |
+  |------------------|---------------------------------------------------------|
+  |**Nome** |Il lavoro deve poter essere salvato tramite un bottone.<div style="width:850px;"></div>                         |
+  |**Priorità**      |1                                                                           |
+  |**Versione**      |1.0                                                                         |
+  |**Note**          |                                                                            |
+  ||**Sotto requisiti**                                                        |
+  |001|Il salvataggio deve essere in formato PNG o SVG.   |
+  |002|Le dimensioni dell'immagine da salvare dovranno essere definite dall'utente al momento del salvataggio.         |
+
+  |**ID**       |Req - 010                                                                          |
+  |------------------|---------------------------------------------------------|
+  |**Nome** |I punti di taglio possono essere spostati o rimossi.<div style="width:850px;"></div>                       |
+  |**Priorità** |2                                                                           |
+  |**Versione**      |1.0                                                                         |
+  |**Note**          | |                                                                          |
+
+  |**ID**       |Req - 011                                                                         |
+  |------------------|---------------------------------------------------------|
+  |**Nome** |I punti di taglio potranno essere salvati tramite un bottone oppure essere importati da un altro bottone. <div style="width:850px;"></div>                        |
+  |**Priorità**      |1                                                                           |
+  |**Versione**      |1.0                                                                         |
+  |**Note**          |                                                                            |
+  ||**Sotto requisiti**                                                        |
+  |001|Il salvataggio deve essere in formato PNG o SVG.   |
+  |002|Le dimensioni dell'immagine da salvare dovranno essere definite dall'utente al momento del salvataggio.         |
+  |003|Il tipo di file del salvataggio sarà un txt all'interno di una cartella del programma.         |
+  |004|Il file contenente i punti viene caricato all'interno del programma tramite un bottone importa.         |
+
+  |**ID**       |Req - 012                                                                         |
+  |------------------|---------------------------------------------------------|
+  |**Nome** |Creare un sito web con descrizione e possibilità di scaricare il .jar della nostra applicazione. <div style="width:850px;"></div>                        |
+  |**Priorità**      |1                                                                           |
+  |**Versione**      |1.0                                                                         |
+  |**Note**          |                                                                            |
+  ||**Sotto requisiti**                                                        |
+  |001|Il sito deve essere con dei colori adatti per tutti gli utenti.   |
+  |002|Deve contenere la lista dei riquisiti di sistema.  |
+  |003|Deve esserci il file per scaricare la JRE.   |
+  |004|Deve contenere una guida con degli screenshots.   |
+
+  |**ID**       |Req - 013                                                                         |
+  |------------------|---------------------------------------------------------|
+  |**Nome** |I punti di taglio potranno essere salvati tramite un bottone oppure essere importati da un altro bottone. <div style="width:850px;"></div>                        |
+  |**Priorità**      |1                                                                           |
+  |**Versione**      |1.0                                                                         |
+  |**Note**          |                                                                            |
+  ||**Sotto requisiti**                                                        |
+  |001|Il salvataggio deve essere in formato PNG, SVG o Raster. Sarà l'utente a decidere la scelta.   |
+  |002|Le dimensioni dell'immagine da salvare sono quelle correnti, 500 0 1000.         |
+
+  |**ID**       |Req - 014                                                                         |
+  |------------------|---------------------------------------------------------|
+  |**Nome** |Deve essere presente una schermata di caricamento che porterà al menu principale. <div style="width:850px;"></div>                        |
+  |**Priorità**      |1                                                                           |
+  |**Versione**      |1.0                                                                         |
+  |**Note**          |                                                                            |
+  ||**Sotto requisiti**                                                        |
+  |001|Al menu principale ci saranno delle miniature dei file precedenti.   |
+
+  |**ID**       |Req - 015                                                                         |
+  |------------------|---------------------------------------------------------|
+  |**Nome** |Deve essere presente un menu principale. <div style="width:850px;"></div>                        |
+  |**Priorità**      |1                                                                           |
+  |**Versione**      |1.0                                                                         |
+  |**Note**          |                                                                            |
+  ||**Sotto requisiti**                                                        |
+  |001|Una schermata con la possibilità di caricare file recenti salvati in una cartella del programma.   |
+  |002|Un bottone di start che fa partire l'applicazione.   |
+  |003|Un bottone di credits dove vengono mostrate le informazioni del creatore.   |
+  |003|Un bottone di help dove viene mostrata una guida su come usare l'applicazione.   |
+
 
 
 
