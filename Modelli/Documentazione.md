@@ -6,7 +6,7 @@
 
   - [Scopo](#scopo)
 
-1. [Analisi](#analisi)
+2. [Analisi](#analisi)
 
   - [Analisi del dominio](#analisi-del-dominio)
 
@@ -18,15 +18,15 @@
 
   - [Pianificazione](#pianificazione)
 
-1. [Progettazione](#progettazione)
+3. [Progettazione](#progettazione)
 
   - [Design dell’architettura del sistema](#design-dell’architettura-del-sistema)
 
   - [Design dei dati e database](#design-dei-dati-e-database)
 
-1. [Implementazione](#implementazione)
+4. [Implementazione](#implementazione)
 
-1. [Test](#test)
+5. [Test](#test)
 
   - [Protocollo di test](#protocollo-di-test)
 
@@ -34,17 +34,17 @@
 
   - [Mancanze/limitazioni conosciute](#mancanze/limitazioni-conosciute)
 
-1. [Consuntivo](#consuntivo)
+6. [Consuntivo](#consuntivo)
 
-1. [Conclusioni](#conclusioni)
+7. [Conclusioni](#conclusioni)
 
   - [Sviluppi futuri](#sviluppi-futuri)
 
   - [Considerazioni personali](#considerazioni-personali)
 
-1. [Sitografia](#sitografia)
+8. [Sitografia](#sitografia)
 
-1. [Allegati](#allegati)
+9. [Allegati](#allegati)
 
 
 ## Introduzione
@@ -112,16 +112,16 @@
   un progetto IT. Per fare ciò dobbiamo ricorrere a tutte nozioni apprese durante
   la nostra formazione, utilizzando molti aspetti visti in varie materie, come per
   esempio la creazione e gestione di un Gantt oppure la creazione di una applicazione
-  con il linguaggio Java. L'altro scopo di questo progetto è quello di creare un applicativo che rappresenta un triangolo di "carta", su cui tramite dei tagli consecutivi possa creare un fiocco di neve.
+  con il linguaggio Java. L'altro scopo di questo progetto sarà quello di creare un applicativo che rappresenta un triangolo di "carta", su cui tramite dei tagli consecutivi possa creare un fiocco di neve.
 
 
 ## Analisi
 
 ### Analisi del dominio
 
-  I docenti supervisori che hanno stipolato le specifiche del progetto sono dalla parte del cliente e ci hanno consegnato un diario di lavoro. Il risultato finale, come spiegato nelle specifiche è un applicativo che ha il compito di generare un fiocco di neve.
-  L'applicazione è stata implementata in Java quindi è facilmente supportata per qualsiasi computer con una versione di Java recente. Questo prodotto non esiste sul mercato e non è un prodotto progettato per importanti lavori ma solamente per il divertimento, fornendo a qualsiasi tipo di utente, esperto o neofita, una piacevole grafica e un semplice utilizzo. Una volta soddisfatti del risultato finale è possibile salvarlo in un'immagine all'interno del vostro Pc.
-  L'applicazione potrà essere scaricata dal nostro sito web nel quale è presente una guida semplice e chiara su come utilizzare il prodotto e avviata tramite l'eseguibile.  
+  I docenti supervisori che hanno stipolato le specifiche del progetto sono dalla parte del cliente e ci hanno consegnato un diario di lavoro. Il risultato finale, come spiegato nelle specifiche sarà un applicativo che avrà il compito di generare un fiocco di neve.
+  L'applicazione sarà implementata in Java quindi potrà essere facilmente supportata per qualsiasi computer con una versione di Java recente. Questo prodotto non esiste sul mercato e non è un prodotto progettato per importanti lavori ma solamente per il divertimento, fornendo a qualsiasi tipo di utente, esperto o neofita, una piacevole grafica e un semplice utilizzo. Una volta soddisfatti del risultato finale sarà possibile salvarlo in un'immagine all'interno del vostro Pc.
+  L'applicazione potrà essere scaricata dal nostro sito web nel quale fornirò una guida semplice e chiara su come utilizzare il prodotto e avviata tramite l'eseguibile.  
 
 
 ### Analisi e specifica dei requisiti
@@ -202,7 +202,9 @@
   |001|Una volta chiuso il poligono il punto di chiusura deve essere verde.   |
   |002|Ci possono essere uno o più poligoni.   |
   |003|Non ci sono limiti per quanto riguarda la quantità di punti. Ovviamente ci si aspetta un certo buon senso da parte dell'utente.   |
-
+  |004|I punti posso essere spostati o rimossi.   |
+  |005|Con il tasto sinistro si possono spostare i punti.   |
+  |006|Con il tasto destro si possono rimuovere i punti.   |
 
   |**ID**       |Req - 005                                                                          |
   |------------------|---------------------------------------------------------|
@@ -221,7 +223,7 @@
 
   |**ID**       |Req -  007                                                                          |
   |------------------|------------------------------------------------------------|
-  |**Nome** |La generazione del fiocco deve avvenire in tempo reale. Ovvero che ad ogni modifica dei punti l'immagine del fiocco cambia di conseguenza. <div style="width:850px;"></div>         |
+  |**Nome** |La generazione del fiocco deve avvenire in tempo reale, ogni modifica dei punti l'immagine del fiocco cambia di conseguenza. <div style="width:850px;"></div>         |
   |**Priorità** |2                                                                           |
   |**Versione**      |1.0                                                                         |
   |**Note**          |                                                                            |
@@ -230,18 +232,7 @@
 
 
 
-  |**ID**       |Req - 008                                                                          |
-  |------------------|---------------------------------------------------------|
-  |**Nome** |I punti di taglio possono essere spostati o rimossi.<div style="width:850px;"></div>                       |
-  |**Priorità** |2                                                                           |
-  |**Versione**      |1.0                                                                         |
-  |**Note**          |                                                                            |
-  ||**Sotto requisiti**                                                        |
-  |001|Con tasto sinistro i punti possono essere spostati.|
-  |002|Con tasto destro i punti possono essere rimossi.|
-
-
-  |**ID**       |Req - 009                                                                         |
+  |**ID**       |Req - 008                                                                         |
   |------------------|---------------------------------------------------------|
   |**Nome** |Il lavoro deve poter essere salvato tramite un bottone.<div style="width:850px;"></div>                         |
   |**Priorità**      |1                                                                           |
@@ -251,14 +242,14 @@
   |001|Il salvataggio deve essere in formato PNG o SVG.   |
   |002|Le dimensioni dell'immagine da salvare dovranno essere definite dall'utente al momento del salvataggio.         |
 
-  |**ID**       |Req - 010                                                                          |
+  |**ID**       |Req - 009                                                                          |
   |------------------|---------------------------------------------------------|
   |**Nome** |I punti di taglio possono essere spostati o rimossi.<div style="width:850px;"></div>                       |
   |**Priorità** |2                                                                           |
   |**Versione**      |1.0                                                                         |
   |**Note**          | |                                                                          |
 
-  |**ID**       |Req - 011                                                                         |
+  |**ID**       |Req - 010                                                                         |
   |------------------|---------------------------------------------------------|
   |**Nome** |I punti di taglio potranno essere salvati tramite un bottone oppure essere importati da un altro bottone. <div style="width:850px;"></div>                        |
   |**Priorità**      |1                                                                           |
@@ -270,7 +261,7 @@
   |003|Il tipo di file del salvataggio sarà un txt all'interno di una cartella del programma.         |
   |004|Il file contenente i punti viene caricato all'interno del programma tramite un bottone importa.         |
 
-  |**ID**       |Req - 012                                                                         |
+  |**ID**       |Req - 011                                                                         |
   |------------------|---------------------------------------------------------|
   |**Nome** |Creare un sito web con descrizione e possibilità di scaricare il .jar della nostra applicazione. <div style="width:850px;"></div>                        |
   |**Priorità**      |1                                                                           |
@@ -282,7 +273,7 @@
   |003|Deve esserci il file per scaricare la JRE.   |
   |004|Deve contenere una guida con degli screenshots.   |
 
-  |**ID**       |Req - 013                                                                         |
+  |**ID**       |Req - 012                                                                         |
   |------------------|---------------------------------------------------------|
   |**Nome** |I punti di taglio potranno essere salvati tramite un bottone oppure essere importati da un altro bottone. <div style="width:850px;"></div>                        |
   |**Priorità**      |1                                                                           |
@@ -292,7 +283,7 @@
   |001|Il salvataggio deve essere in formato PNG, SVG o Raster. Sarà l'utente a decidere la scelta.   |
   |002|Le dimensioni dell'immagine da salvare sono quelle correnti, 500 0 1000.         |
 
-  |**ID**       |Req - 014                                                                         |
+  |**ID**       |Req - 013                                                                         |
   |------------------|---------------------------------------------------------|
   |**Nome** |Deve essere presente una schermata di caricamento che porterà al menu principale. <div style="width:850px;"></div>                        |
   |**Priorità**      |1                                                                           |
@@ -301,7 +292,7 @@
   ||**Sotto requisiti**                                                        |
   |001|Al menu principale ci saranno delle miniature dei file precedenti.   |
 
-  |**ID**       |Req - 015                                                                         |
+  |**ID**       |Req - 014                                                                         |
   |------------------|---------------------------------------------------------|
   |**Nome** |Deve essere presente un menu principale. <div style="width:850px;"></div>                        |
   |**Priorità**      |1                                                                           |
@@ -356,8 +347,7 @@ durante il progetto. Gli elementi di riferimento per una buona
 pianificazione derivano da una scomposizione top-down della problematica
 del progetto.
 
-La pianificazione può essere rappresentata mediante un diagramma di
-Gantt.
+![Minion](gantt.png)
 
 Se si usano altri metodi di pianificazione (es scrum), dovranno apparire
 in questo capitolo.
@@ -396,15 +386,6 @@ Descrive:
 
 -   Eventuale sitemap
 
-### Design dei dati e database
-
-Descrizione delle strutture di dati utilizzate dal programma in base
-agli attributi e le relazioni degli oggetti in uso.
-
-### Schema E-R, schema logico e descrizione.
-
-Se il diagramma E-R viene modificato, sulla doc dovrà apparire l’ultima
-versione, mentre le vecchie saranno sui diari.
 
 ### Design delle interfacce
 
