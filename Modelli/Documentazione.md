@@ -1,8 +1,8 @@
 1. [Introduzione](#introduzione)
 
-  - [Informazioni sul progetto](#informazioni-sul-progetto)
+        - [Informazioni sul progetto](#informazioni-sul-progetto)
 
-  - [Abstract](#abstract)
+        - [Abstract](#abstract)
 
   - [Scopo](#scopo)
 
