@@ -1,46 +1,46 @@
 1. [Introduzione](#introduzione)
 
-        - [Informazioni sul progetto](#informazioni-sul-progetto)
+      - [Informazioni sul progetto](#informazioni-sul-progetto)
 
-        - [Abstract](#abstract)
+      - [Abstract](#abstract)
 
-  - [Scopo](#scopo)
+      - [Scopo](#scopo)
 
 2. [Analisi](#analisi)
 
-  - [Analisi del dominio](#analisi-del-dominio)
+      - [Analisi del dominio](#analisi-del-dominio)
 
-  - [Analisi dei mezzi](#analisi-dei-mezzi)
+      - [Analisi dei mezzi](#analisi-dei-mezzi)
 
-  - [Analisi e specifica dei requisiti](#analisi-e-specifica-dei-requisiti)
+      - [Analisi e specifica dei requisiti](#analisi-e-specifica-dei-requisiti)
 
-  - [Use case](#use-case)
+      - [Use case](#use-case)
 
-  - [Pianificazione](#pianificazione)
+      - [Pianificazione](#pianificazione)
 
 3. [Progettazione](#progettazione)
 
-  - [Design dell’architettura del sistema](#design-dell’architettura-del-sistema)
+      - [Design dell’architettura del sistema](#design-dell’architettura-del-sistema)
 
-  - [Design dei dati e database](#design-dei-dati-e-database)
+      - [Design dei dati e database](#design-dei-dati-e-database)
 
 4. [Implementazione](#implementazione)
 
 5. [Test](#test)
 
-  - [Protocollo di test](#protocollo-di-test)
+      - [Protocollo di test](#protocollo-di-test)
 
-  - [Risultati test](#risultati-test)
+      - [Risultati test](#risultati-test)
 
-  - [Mancanze/limitazioni conosciute](#mancanze/limitazioni-conosciute)
+      - [Mancanze/limitazioni conosciute](#mancanze/limitazioni-conosciute)
 
 6. [Consuntivo](#consuntivo)
 
 7. [Conclusioni](#conclusioni)
 
-  - [Sviluppi futuri](#sviluppi-futuri)
+      - [Sviluppi futuri](#sviluppi-futuri)
 
-  - [Considerazioni personali](#considerazioni-personali)
+      - [Considerazioni personali](#considerazioni-personali)
 
 8. [Sitografia](#sitografia)
 
