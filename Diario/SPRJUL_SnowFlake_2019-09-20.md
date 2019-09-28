@@ -1,6 +1,6 @@
-# [Generatore di fiocchi di neve] | Diario di lavoro
-##### [Sprugasci Julian]
-### [Sam Trevano], [13.09.2019]
+# Generatore di fiocchi di neve | Diario di lavoro
+##### Sprugasci Julian
+### Sam Trevano, 13.09.2019
 
 ## Lavori svolti
 
