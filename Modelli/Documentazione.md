@@ -1,46 +1,46 @@
 1. [Introduzione](#introduzione)
 
-      - [Informazioni sul progetto](#informazioni-sul-progetto)
+  - [Informazioni sul progetto](#informazioni-sul-progetto)
 
-      - [Abstract](#abstract)
+  - [Abstract](#abstract)
 
-      - [Scopo](#scopo)
+  - [Scopo](#scopo)
 
 2. [Analisi](#analisi)
 
-      - [Analisi del dominio](#analisi-del-dominio)
+  - [Analisi del dominio](#analisi-del-dominio)
 
-      - [Analisi dei mezzi](#analisi-dei-mezzi)
+  - [Analisi dei mezzi](#analisi-dei-mezzi)
 
-      - [Analisi e specifica dei requisiti](#analisi-e-specifica-dei-requisiti)
+  - [Analisi e specifica dei requisiti](#analisi-e-specifica-dei-requisiti)
 
-      - [Use case](#use-case)
+  - [Use case](#use-case)
 
-      - [Pianificazione](#pianificazione)
+  - [Pianificazione](#pianificazione)
 
 3. [Progettazione](#progettazione)
 
-      - [Design dell’architettura del sistema](#design-dell’architettura-del-sistema)
+  - [Design dell’architettura del sistema](#design-dell’architettura-del-sistema)
 
-      - [Design dei dati e database](#design-dei-dati-e-database)
+  - [Design dei dati e database](#design-dei-dati-e-database)
 
 4. [Implementazione](#implementazione)
 
 5. [Test](#test)
 
-      - [Protocollo di test](#protocollo-di-test)
+  - [Protocollo di test](#protocollo-di-test)
 
-      - [Risultati test](#risultati-test)
+  - [Risultati test](#risultati-test)
 
-      - [Mancanze/limitazioni conosciute](#mancanze/limitazioni-conosciute)
+  - [Mancanze/limitazioni conosciute](#mancanze/limitazioni-conosciute)
 
 6. [Consuntivo](#consuntivo)
 
 7. [Conclusioni](#conclusioni)
 
-      - [Sviluppi futuri](#sviluppi-futuri)
+  - [Sviluppi futuri](#sviluppi-futuri)
 
-      - [Considerazioni personali](#considerazioni-personali)
+  - [Considerazioni personali](#considerazioni-personali)
 
 8. [Sitografia](#sitografia)
 
@@ -347,7 +347,7 @@ durante il progetto. Gli elementi di riferimento per una buona
 pianificazione derivano da una scomposizione top-down della problematica
 del progetto.
 
-![Minion](gantt.png)
+![Gantt](gantt.png)
 
 Se si usano altri metodi di pianificazione (es scrum), dovranno apparire
 in questo capitolo.
@@ -393,6 +393,57 @@ Descrizione delle interfacce interne ed esterne del sistema e
 dell’interfaccia utente. La progettazione delle interfacce è basata
 sulle informazioni ricavate durante la fase di analisi e realizzata
 tramite mockups.
+
+#### Interfaccia applicazione
+
+##### Menu principale
+![Gantt](Img/Menu.png)
+
+Il menu principale dell'applicazione sarà suddiviso nel seguente modo.
+Sarà presente un bottone di **Start** nel quale, una volta premuto apparirà la
+schermata di creazione del frame con le misure gestite dall'utente. Il pulsante
+**Credits** contiene le informazioni riguardanti il programmatore e la versione
+del programma attuale. Infine come ultimo bottone, c'è quello di **Help** che contiene una breve guida semplice e descrittiva su come iniziare ad utilizzare il programma.
+Il pannello blu a sinistra **Recent files:** verranno visualizzati al suo interno
+tutti i file creati di recente dal programma che possono essere fiocchi di neve oppure i punti salvati dall'utente.
+
+**Requisito supplementare**
+
+Infine come ultima cosa, se resterà del tempo, verrà creata un'animazione nel Menu
+principale nella quale verranno rappresentati dei fiocchi di neve creati col programma
+che cadono dalla cima dello schermo fino a svanire in basso.
+
+##### Creazione del file
+![Gantt](Img/Create_File.png)
+
+Questa è la prima schermata che apparirà una volta cliccato il bottone **Start**
+dal menu principale. Questa interfaccia permette all'utente di inserire la grandezza
+del frame iniziale(default 1024X768) e decidere se avere la rappresentazione in
+tempo reale oppure no. **Attenzione: questa operazione non potrà essere cambiata una volta fatto partire il file creato.** Una volta che si è sicuri della propria scelta si
+può cliccare sul bottone **Create** e iniziare con la creazione del fiocco.
+
+##### Creazione del fiocco
+![Gantt](Img/triangleInterface.png)
+
+Questa sarà la schermata di creazione del fiocco di neve. In alto a sinistra sono
+presenti due bottoni. Il primo bottone **File** una volta cliccato farà apparire
+apparire la seguente schermata che sarà molto simile a tutte le applicazioni windows:
+![Gantt](Img/MenuFocus.png)
+- **New:** Permette di creare un nuovo file.
+- **Open SnowFlake:** Permette di aprire un progetto già esistente.
+- **Import cutting points:** Permette di importare i punti di taglio salvati in
+precedenza.
+- **Save points:** Permette di salvare i punti di taglio presenti sullo schermo.
+- **Save Snowflake:** Permette di salvare il fiocco di neve creato.
+- **Exit:** Permette di tornare al menu principale del programma.
+
+**Importante:** Tutti i file saranno salvati in delle cartelle apposta create all'interno della cartella del programma.
+
+Poi sarà presente un bottone di **Help** dove ci sarà il link della guida ufficiale
+presente sul sito del programma dove ferrà spiegato tutto il funzionamento del programma, in una sorta di guida utente step by step. Infine in fondo sarà presente un bottone
+**Generate** dove, una volta premuto, verrà creato un fiocco di neve con i punti di
+taglio.
+ 
 
 ### Design procedurale
 
