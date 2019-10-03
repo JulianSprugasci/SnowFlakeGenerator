@@ -428,6 +428,8 @@ può cliccare sul bottone **Create** e iniziare con la creazione del fiocco.
 Questa sarà la schermata di creazione del fiocco di neve. In alto a sinistra sono
 presenti due bottoni. Il primo bottone **File** una volta cliccato farà apparire
 apparire la seguente schermata che sarà molto simile a tutte le applicazioni windows:
+
+
 ![Gantt](Img/MenuFocus.png)
 - **New:** Permette di creare un nuovo file.
 - **Open SnowFlake:** Permette di aprire un progetto già esistente.
@@ -443,7 +445,7 @@ Poi sarà presente un bottone di **Help** dove ci sarà il link della guida uffi
 presente sul sito del programma dove ferrà spiegato tutto il funzionamento del programma, in una sorta di guida utente step by step. Infine in fondo sarà presente un bottone
 **Generate** dove, una volta premuto, verrà creato un fiocco di neve con i punti di
 taglio.
- 
+
 
 ### Design procedurale
 
