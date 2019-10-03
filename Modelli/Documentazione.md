@@ -165,7 +165,7 @@
 
   |**ID**       |Req - 001                                                                          |
   |------------------|---------------------------------------------------------|
-  |**Nome** |L'applicativo deve essere in Java o in JS.<div style="width:850px;"></div>                        |
+  |**Nome** |L'applicativo deve essere in Java o in JS.<table style="overflow: auto;"></div>                        |
   |**Priorità**      |1                                                                           |
   |**Versione**      |1.0                                                                         |
   |**Note**          |                                                                            |
