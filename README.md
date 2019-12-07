@@ -1,5 +1,11 @@
 # SnowFlakeGenerator
 
+Questo è un software solo a scopo didattico sviluppato in java. Il suo scopo è quello di simulare una creazione di un fiocco di neve partendo da un triangolo di carta.
+
+Una volta ritagliato a proprio piacimento sarà possibile salvare l'immagine della propria creazione.
+
+Grazie e buon divertimento!
+
 
 ## Modelli
 - [Documentazione progetto](Modelli/Documentazione.md)
