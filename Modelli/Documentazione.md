@@ -78,19 +78,24 @@
   Può contenere alcuni o tutti gli elementi seguenti:
 
   -   **Background/Situazione iniziale**
+      Sono partito con l'idea che dovevo partire da un semplice triangolo di                    "carta" bianco e tramite dei tagli consecutivi simulati dal programma si potesse generare un ficco di neve e poi salvarlo.
 
   -   **Descrizione del problema e motivazione**: Che problema ho cercato
       di risolvere? Questa sezione dovrebbe includere l'importanza del
       vostro lavoro, la difficoltà dell'area e l'effetto che potrebbe
       avere se portato a termine con successo.
+      Il problema da risolvere era quello che bisognava riuscire a creare un programma comodo e utile per creare tanti fiocchi di neve senza sprecare della carta. Se il progetto verrà portato a termine con successo, non ci saranno più spreghi di carta e si protranno creare dei fiocchi di neve molto più precisi e dettagliati di quelli su carta.
+      
 
   -   **Approccio/Metodi**: Come ho ottenuto dei progressi? Come ho
       risolto il problema (tecniche…)? Quale è stata l’entità del mio
       lavoro? Che fattori importanti controllo, ignoro o misuro?
+      In questo progetto bisognava di certo avere della base di trigonometria. Per riuscire a trovare dei metodi per risolvere i vari problemi, come per esempio girare il poligono, servino delle librerie come Affine Trasform che sono appunto dei calcoli di trigonometria. Il metodo migliore per trovare un approccio di risoluzione di un problema secondo me è quello di provare tutte le idee su carta, e una volta pensata e trovata una soluzione plausibile si può passare al codice. Bisogna sempre pensare e pianificare tutto prima di iniziare un lavoro, questo perchè se non si hanno le idee nitide si rischia di sbagliare e ricominciare da capo. Il fattore importante per risolvere il progetto è stato quello di suddividere i problemi e scomporli in sotto-problemi, iniziando da quelli più semplici per poi focalizzarsi su quelli più difficili. Questo metodo porta a non sprecare tempo e risorse in modo inutile. 
 
   -   **Risultati**: Quale è la risposta? Quali sono i risultati? Quanto è
       più veloce, più sicuro, più economico o in qualche altro aspetto
       migliore di altri prodotti/soluzioni?
+      Per il risultato è difficile da dirlo, visto che non esistono dei prodotti del genere sul mercato. Di certo deve essere un programma semplice e veloce, con una interfaccia fatta bene e facile da usare dall'utente.
 
   Esempio di abstract:
 
@@ -360,6 +365,9 @@ modello di riferimento.
 
 SDK, librerie, tools utilizzati per la realizzazione del progetto e
 eventuali dipendenze.
+
+Per realizzare questo progetto ho utilizzato i seguenti programmi:
+- 
 
 Su quale piattaforma dovrà essere eseguito il prodotto? Che hardware
 particolare è coinvolto nel progetto? Che particolarità e limitazioni
