@@ -367,7 +367,19 @@ SDK, librerie, tools utilizzati per la realizzazione del progetto e
 eventuali dipendenze.
 
 Per realizzare questo progetto ho utilizzato i seguenti programmi:
-- 
+ - Netbeans 11.0
+ - Atom 4.0.75
+ - Paint.net
+
+Per quanto riguarda l'hardware, per il progetto ho utilizzato solamente il mio Pc perchè è un software in java e il sito verrà hostato sul dominio della scuola.
+
+Per il progetto ho utilizzato le seguenti librerie:
+ - java.awt.* Per questo progetto ho utilizzato diversi componenti grafici situati all'interno della classe nativa awt come per esempio:
+    - Graphics: Per disegnare componenti e colorarli.
+    - Graphics2D: Estensione di Graphics ma con al suo interno la possibilità di stampare anche gli Shapes.
+    - Frame: Componente grafico che funge da finestra per la mia applicazione
+    - Oltre a ciò ci sono anche tutte 
+
 
 Su quale piattaforma dovrà essere eseguito il prodotto? Che hardware
 particolare è coinvolto nel progetto? Che particolarità e limitazioni
