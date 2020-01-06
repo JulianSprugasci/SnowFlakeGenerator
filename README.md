@@ -12,8 +12,8 @@ Grazie e buon divertimento!
 Per quanto riguarda la consegna del progetto ho creato una nuova cartella chiamata **Consegna**, nella quale ho inserito in modo ordinato i vari documenti da consegnare. La .zip Consegna_FINALE è la .zip che ho consegnato nel termine prestabilito ma i suoi contenuti sono esposti nella directory **Consegna**. 
 
 
-## Modelli
-- [Documentazione progetto](Modelli/Documentazione.md)
+## Consegna
+- [Documentazione progetto](Consegna/Doc/Documentazione.md)
 - [Diario](Diario)
 
 
