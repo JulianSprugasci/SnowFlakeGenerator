@@ -271,7 +271,7 @@ requisiti.
 ### Pianificazione
 
 
-![Gantt](Img/gantt.png)
+![Gantt](img/gantt.png)
 
 
 ### Analisi dei mezzi
