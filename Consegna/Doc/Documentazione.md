@@ -303,11 +303,11 @@ L'applicazione potrebbe però avere qualche problema sui sistemi Windows, visto 
 ## Progettazione
 
 
-![c](Img/UML.png)
+![c](img/UML.png)
 
 ### Spiegazione delle classi
 
-![c](Img/TabFrameClass.png)
+![c](img/TabFrameClass.png)
 
 Questa classe TabFrame è una specie di frame modificato per utilizzale il TabbedPane.
 
@@ -324,7 +324,7 @@ Questa classe TabFrame è una specie di frame modificato per utilizzale il Tabbe
 - **static void main():** Metodo principale dell'applicazioni.
 
 
-![c](Img/ClosableTappedPane.png)
+![c](img/ClosableTappedPane.png)
 
 Questa classe ClosableTabbedPane è praticamenta una classe che funge da tab all'interno del nostro menu e gestisce tutti i tab.
 
@@ -340,7 +340,7 @@ Questa classe ClosableTabbedPane è praticamenta una classe che funge da tab all
 
 - **tabAboutToClose():** Metodo che ritorna true.
 
-![c](Img/TriangleClass.png)
+![c](img/TriangleClass.png)
 
 Questa classe Triangle rappresenta il triangolo della applicazione.
 
@@ -382,7 +382,7 @@ Questa classe Triangle rappresenta il triangolo della applicazione.
 
 
 
-![c](Img/MyPolygonClass.png)
+![c](img/MyPolygonClass.png)
 
 Questa classe gestisce i poligoni che vengono creati dall'utente all'interno della finestra.
 
@@ -420,7 +420,7 @@ Questa classe gestisce i poligoni che vengono creati dall'utente all'interno del
 
 
 
-![c](Img/PreviewModelClass.png)
+![c](img/PreviewModelClass.png)
 
 Questa classe PreviewModel ha lo scopo di stampare il fiocco di neve all'interno della preview.
 
@@ -435,7 +435,7 @@ Questa classe PreviewModel ha lo scopo di stampare il fiocco di neve all'interno
 - **paint():** Permette di stampare all'interno della finestra.
 
 
-![c](Img/HelpPanelClass.png)
+![c](img/HelpPanelClass.png)
 
 Questa classe HelpPanel ha lo scopo di aiutare l'utente per qualche semplice dritta sul programma.
 
@@ -444,7 +444,7 @@ Questa classe HelpPanel ha lo scopo di aiutare l'utente per qualche semplice dri
 Per questa classe non c'è bisogno di una spiegazione perchè è solamente un Panel grafico che fornisce all'utente qualche aiuto di base per iniziare.
 
 
-![c](Img/PreviewPanelClass.png)
+![c](img/PreviewPanelClass.png)
 
 Questa classe PreviewModel ha lo scopo di stampare il fiocco di neve all'interno della preview.
 
@@ -459,7 +459,7 @@ Questa classe PreviewModel ha lo scopo di stampare il fiocco di neve all'interno
 - **paintComponent():** Permette di stampare all'interno della finestra.
 
 
-![c](Img/SnowFlakeFrame2Class.png)
+![c](img/SnowFlakeFrame2Class.png)
 
 Questa classe SnowFlakeFrame2 è il menu principale della nostra applicazione.
 
@@ -484,9 +484,9 @@ Questa classe SnowFlakeFrame2 è il menu principale della nostra applicazione.
 - **paintComponent():** Permette di stampare all'interno della finestra.
 
 
-![c](Img/SnowFlakePanelClass1.png)
+![c](img/SnowFlakePanelClass1.png)
 
-![c](Img/SnowFlakePanelClass2.png)
+![c](img/SnowFlakePanelClass2.png)
 
 Questa classe SnowFlakePanel è il cuore di questo progetto. È la classe principale, editor nel quale vengono fatte quasi tutte le operazioni della nostra applicazione.
 
@@ -611,8 +611,8 @@ Questa classe SnowFlakePanel è il cuore di questo progetto. È la classe princi
 - **getShapesList():** Permette di ritornare la lista di array.
 
 
-![c](Img/EditorPanelClass.png)
-![c](Img/EditorPanelClass2.png)
+![c](img/EditorPanelClass.png)
+![c](img/EditorPanelClass2.png)
 
 Questa classe EditorPanel ha lo scopo di rappresentare l'editor del programma. Principalmente in questo Panel è presente uno SnowFlakePanel e un EditorControlPanel sulla sinistra con 2 sezioni: una riservata per i vari controlli e l'altra per salvare l'immagine.
 
@@ -629,16 +629,16 @@ tramite mockups.
 #### Interfaccia applicazione
 
 ##### Menu principale
-![Gantt](Img/Menu.png)
+![Gantt](img/Menu.png)
 
 Il menu principale dell'applicazione sarà suddiviso nel seguente modo.
 Sarà presente un bottone di **Start** nel quale, una volta premuto apparirà un popup dove dovrà essere inserito il nome dell'editor che si sta creando.
 
-![Gantt](Img/Popup.png)
+![Gantt](img/Popup.png)
 
 **Nota:** Ogni volta che si crea una nuova finestra esse appariranno qui sopra nella barra.
 
-![Gantt](Img/Barra.png)
+![Gantt](img/Barra.png)
 
 Successivamente sarà presente anche un pulsante **Help** che conterrà una breve guida semplice e descrittiva su come funziona, a grandi linee il programma.
 
@@ -647,17 +647,17 @@ Tramite il bottone **New** si potranno creare tutti gli editor che si vogliano.
 
 ##### Creazione del fiocco
 
-![Gantt](Img/triangleInterface.png)
+![Gantt](img/triangleInterface.png)
 
 La seguente interfaccia funziona nel seguente modo.
 
 L'utente può inserire i poligoni di taglio sopra il triangolo con il click del mouse.
 
-![Gantt](Img/triangle.png)
+![Gantt](img/triangle.png)
 
 ###### Control panel
 
-![Gantt](Img/control.png)
+![Gantt](img/control.png)
 
 In questo control panel c'è una sezione dedicata ai colori.
 I 4 bottoni permettono di cambiare i colori del triangolo, punti, background e poligoni.
@@ -670,7 +670,7 @@ Successivamente ci sono un paio di label utili per il debug dell'applicazione ch
 
 Infine in fondo ci sono i bottoni che permettono di importare i punti dai file, salvare i punti in un file, Resettare la finestra ed infine generare il fiocco di neve che comparirà in fondo nello spazio Preview.
 
-![Gantt](Img/save.png)
+![Gantt](img/save.png)
 
 Questa sezione è invece quella che permette di salvare il fiocco di neve finale nei vari formati proposti. Poi ci sono tre bottoni che servono per scegliere il tipo di immagine da salvare.
 
@@ -721,144 +721,144 @@ Non deve apparire nessuna forma di guida d’uso di librerie o di componenti uti
 Per eventuali dettagli si possono inserire riferimenti ai diari.
 
 ##### Metodo addPoint
-![c](Img/addPoint.png)
+![c](img/addPoint.png)
 
 Questo metodo controlla la distanza tra il primo punto del poligono di taglio inserito con il click sinistro del mouse e l'ultimo inserito. Se la distanza fra i due è minore del valore prestabilito, in questo caso 5, setta il booleano **isClosed**, chiude il poligono e crea l'area del poligono.
 
 ##### Metodo recalculatePolygon
-![c](Img/recalculatePolygon.png)
+![c](img/recalculatePolygon.png)
 
 Questo metodo permette di resettare il poligono attuale e, ciclando con un for each riassegna i valori al poligono aggiornandolo. Successivamente ricrea l'area del poligono. Esso viene utilizzato nel mouse Dragged per ricalcolare i poligoni ogni volta che vengono trascinati.
 
 ##### Metodo removePointAt
-![c](Img/removePointAt.png)
+![c](img/removePointAt.png)
 
 Questo metodo permette di controllare se il click del mouse coincide con uno dei punti disegnati del poligono. Se, premendo col tasto destro del mouse il due punti coincidono, allora esso viene tolto dal poligono e richiama il **recalculatePolygon()**. Questo metodo viene utilizzato nel **mouseClick** per controllare se l'utente vuole cancellare un punto.
 
 ##### Metodo movePoint
-![c](Img/movePoint.png)
+![c](img/movePoint.png)
 
 Questo metodo controlla se la distanza tra il punto "selezionato" e il click sinistro del mouse coincidono con i valori prestabiliti. Se tutto va a buon fine il punto viene aggiornato con il **newPosition**.
 
 ##### Metodo distanceOfPoints
-![c](Img/distanceOfPoints.png)
+![c](img/distanceOfPoints.png)
 
 Questo metodo ritorna se la distanza fra due punti coincide con il valore di **RADIUS * 2** altrimenti ritorna false.
 
 #### SnowFlakeFrame2.java
 
 ##### Metodo startButton1ActionPerformed
-![c](Img/startButton1ActionPerformed.png)
+![c](img/startButton1ActionPerformed.png)
 
 Questo metodo permette di creare un nuovo EditorPanel all'interno del mio TabbedPane.
 
 ##### Metodo helpButtonActionPerformed
-![c](Img/helpButton.png)
+![c](img/helpButton.png)
 
 Questo metodo permette di creare una pagina di Help all'interno del nostro TappedPane.
 
 ##### Metodo createTriangle
-![c](Img/createTriangle.png)
+![c](img/createTriangle.png)
 
 Questo metodo permette di creare un triangolo sempre centrato al centro dello schermo attraverso dei calcoli matematici. Esso viene richiamato ogni volta che voglio ridimensionare il triangolo con un resize.
 
 ##### Metodo jButton6ActionPerformed
-![c](Img/saveImagAP.png)
+![c](img/saveImagAP.png)
 
 Questo metodo controlla se l'utente ha scelto il tipo di immagine da salvare. Se non lo sceglie esce un messaggio di errore, altrimenti salva l'immagine e stampa il messaggio che tutto è andato a buon fine.
 
 ##### Metodo jpgButtonActionPerformed
-![c](Img/jpgButtonAP.png)
+![c](img/jpgButtonAP.png)
 
 Questo metodo controlla se l'utente ha scelto come tipo di immagine jpg. Se ha scelto esso di conseguenza resetta gli altri colori dei bottoni e si setta attivo.
 
 ##### Metodo pngButtonActionPerformed
-![c](Img/pngButtonAP.png)
+![c](img/pngButtonAP.png)
 
 Questo metodo controlla se l'utente ha scelto come tipo di immagine png. Se ha scelto esso di conseguenza resetta gli altri colori dei bottoni e si setta attivo.
 
 ##### Metodo svgButtonActionPerformed
-![c](Img/svgButtonAP.png)
+![c](img/svgButtonAP.png)
 
 Questo metodo controlla se l'utente ha scelto come tipo di immagine svg. Se ha scelto esso di conseguenza resetta gli altri colori dei bottoni e si setta attivo.
 
 ##### Metodo polygonsColorButtonActionPerformed
-![c](Img/polygonsColorButtonAP.png)
+![c](img/polygonsColorButtonAP.png)
 
 Questo metodo si occupa di cambiare il colore dei poligoni di taglio e cambiare il colore di sfondo del bottone.
 
 ##### Metodo darkModeCheckBoxActionPerformed
-![c](Img/darkModeCheckBoxAP.png)
+![c](img/darkModeCheckBoxAP.png)
 
 Questo metodo è un po' un casino ma si occupa solamente di controllare se il checkBox della Dark Mode è attivo oppure è disattivato.
 
 ##### Metodo backgroundColorButtonActionPerformed
-![c](Img/backgroundColorButtonAP.png)
+![c](img/backgroundColorButtonAP.png)
 
 Questo metodo si occupa di cambiare il colore dello sfondo dell'applicazione e cambiare il colore di sfondo del bottone.
 
 ##### Metodo pointsColorButtonActionPerformed
-![c](Img/pointsColorButtonAP.png)
+![c](img/pointsColorButtonAP.png)
 
 Questo metodo si occupa di cambiare il colore dei punti e cambiare il colore di sfondo del bottone.
 
 ##### Metodo generateButtonActionPerformed
-![c](Img/generateButtonAP.png)
+![c](img/generateButtonAP.png)
 
 Questo metodo ogni volta che viene richiamato aumenta una variabile chiamata **countGenerate**. Questa variabile serve per un semplice motivo, se è uguale a 1 crea il panel della Preview e lo aggiunge all'editor mentre se è maggiore di 1 si limita semplicemente di fare repaint della finestra e del PreviewPanel. Al suo interno c'è una condizione che si avvera solamente quando l'utente preme **Yes** per generare il fiocco di neve.
 
 ##### Metodo resetButtonActionPerformed
-![c](Img/resetButtonAP.png)
+![c](img/resetButtonAP.png)
 
 Questo metodo si occupa di resettare tutti i punti e poligoni presenti in quel momento sulla finestra dell'editor.
 
 ##### Metodo savePointsButtonActionPerformed
-![c](Img/savePointsButtonAP.png)
+![c](img/savePointsButtonAP.png)
 
 Questo metodo invoca il metodo **savePoints** di SnowFlakePanel e permette semplicemente di salvare i punti in un file .txt.
 
 ##### Metodo importPointsButtonActionPerformed
-![c](Img/importPointsButtonAP.png)
+![c](img/importPointsButtonAP.png)
 
 Questo metodo invoca il metodo **importPoints** di SnowFlakePanel e permette semplicemente di importare i file .txt.
 
 ##### Metodo triangleColorButtonActionPerformed
-![c](Img/triangleColorButtonAP.png)
+![c](img/triangleColorButtonAP.png)
 
 Questo metodo si occupa di cambiare il colore del triangolo di base e cambiare il colore di sfondo del bottone.
 
 ##### Metodo calculatePolygon
-![c](Img/calculatePolygon.png)
+![c](img/calculatePolygon.png)
 
 Questo metodo crea innanzitutto un **lastPolygon** che corrisponde all'ultimo poligono di **myPolygons**. Con esso controllo, se non è chiuso inserisco i punti al suo interno mentre se esso è chiuso allora lo aggiungo alla lista.
 
 ##### Metodo calculateShape
-![c](Img/calculateShape.png)
+![c](img/calculateShape.png)
 
 Questo metodo come prima cosa crea una variabile **count**. Essa verrà incrementata e utilizzata per girare gli shape con un determinato angolo di rotazione. Poi fa passare prima tutti gli shape e li ruota ad ogni ciclo di 60 gradi grazie a count ma anche al metodo **rotatePointMatrix**. Una volta fatto con gli shape normali lo stesso processo viene effettuato anche per gli Shape specchiati, perchè come sappiamo un esagono è formato da sei triangoli normali e sei specchiati come in questo caso.
 
 ##### Metodo containsPoints
-![c](Img/containsPoints.png)
+![c](img/containsPoints.png)
 
 Questo metodo verifica se due punti sono all'interno di una determinata distanza. In questo caso deve essere minore di **POINTS_SIZE / 2**.
 
 ##### Metodo mouseClicked
-![c](Img/mouseClicked.png)
+![c](img/mouseClicked.png)
 
 Questo metodo gestisce gli eventi click del mouse. Come prima cosa vengono inizializzate due variabili che permettono di tenere traccia dell'ultimo punto in cui si ha cliccato col mouse. Poi controlla se il viene cliccato il tasto **sinistro** del mouse richiamo il metodo **calculatePolygon**, altrimenti se viene premuto quello destro è possibile cancellare il punto selezionato.
 
 ##### Metodo mouseDragged
-![c](Img/mouseDragged.png)
+![c](img/mouseDragged.png)
 
 Questo metodo permette di trascinare i punti all'interno della finestra dell'editor. Infatti salvando le vecchie coordinate del mouse posso spostarle e modificarle in quelle nuove attraverso **movePoint** e a **recalculatePolygon**.
 
 ##### Metodo mouseMoved
-![c](Img/mouseMoved.png)
+![c](img/mouseMoved.png)
 
 Questo metodo si occupa principalmente ad aggiornare le coordinate di **xCoord e yCoord** per ogni movimento del mouse.
 
 ##### Metodo savePoints
-![c](Img/savePoints.png)
+![c](img/savePoints.png)
 
 Questo metodo ha lo scopo di salvare i punti dei vari poligoni presenti sull'editor. Come prima cosa chiede all'utente di inserire il nome del file nel quale si desidera salvare i punti.
 
@@ -868,50 +868,50 @@ Una volta preso il nome controlla con un metodo se l'estensione del file e giust
 
 I punti verranno salvati del seguente modo seguendo questo stile:
 
-![c](Img/fileExample.png)
+![c](img/fileExample.png)
 
 ##### Metodo importPoints
-![c](Img/importPoints.png)
+![c](img/importPoints.png)
 
 Questo metodo permette di importare i punti da un file .txt all'interno del programma. Il processo è molto semplice. Tutto parte dalla scelta del file tramite il file Chooser. Una volta scelto il file viene passato il file finchè non trova la scritta **endPolygon** e allora capisce che li finisce un poligono. Una volta fatti passare tutti i poligoni ed aver inserito man mano i punti in sue liste, essi li converto in Integer e li aggiungo alla lista di poligoni.
 
 ##### Metodo saveImage
-![c](Img/saveImage.png)
+![c](img/saveImage.png)
 
 Questo metodo permette di salvare il fiocco di neve finale nei formati richesti **(png,jpg,svg)**. Si può salvare l'immagine con le grandezze 500, 1000 oppure con quella corrente che viene mostrata con un jLabel sull'editor.
 
 ##### Metodo controlFileName
-![c](Img/controlFileName.png)
+![c](img/controlFileName.png)
 
 Questo metodo controlla se l'estensione del file corrisponde a quella del .txt.
 
 ##### Metodo subtractArea
-![c](Img/subtractArea.png)
+![c](img/subtractArea.png)
 
 Questo metodo permette di sottrarre tutte le aree dei poligoni che sono in sovrapposizione con il triangolo.
 
 ##### Metodo convertAreaToPolygon
-![c](Img/convertAreaToPolygon.png)
+![c](img/convertAreaToPolygon.png)
 
 Questo metodo permette convertire l'area finale del triangolo di nuovo ad un poligono. Per farlo o utilizzato il Path Iterator che funziona nel seguente modo. Esso parte da type 0 percorre tutti i punti di un poligono a type 1 e all'ultimo punto arriva a 4. in questo modo si possono passare tutti i punti dell'area e recuperare quelli originali per rimetterli in un poligono.
 
 ##### Metodo generate
-![c](Img/generate.png)
+![c](img/generate.png)
 
 Questo metodo permette di generare il fiocco di neve finale, richiamando i vari metodi che gli serviranno durante il progesso di creazione.
 
 ##### Metodo componentResized
-![c](Img/componentResized.png)
+![c](img/componentResized.png)
 
 Questo metodo viene richiamato ogni qual volta viene effettuato un ridimensionamento della finestra e permette di aggiornale la grandezza e la posizione del triangolo per far si che rimanga sempre centrato.
 
 ##### Metodo rotatePointMatrix
-![c](Img/rotatePointMatrix.png)
+![c](img/rotatePointMatrix.png)
 
 Questo metodo permette di ruotare i punti del poligono utilizzando la classe AffineTrasform. Questa classe non è altro che la rappresentazione delle trasformazioni affini matematiche e fornisce dei metodi molto interessanti. Utilizzando il metodo **scale** è possibile scalare la grandezza del poligono e renderlo più piccolo mentre il metodo **rotate** permett di scegliere l'angolo di rotazione, e i punti da fissare durante la rotazione (in questo caso il punto più in basso del triangolo) e visto che deve essere spostato al centro c'è bisogno di creare un metodo che faccia il sequente lavoro. Una volta fatto tutto ciò si può creare **createTrasformedShape** e ritornare lo shape trasformato.
 
 ##### Metodo reversePolygon
-![c](Img/reversePolygon.png)
+![c](img/reversePolygon.png)
 
 Questo metodo permette di specchiare uno shape per permettere di disegnare il fiocco di neve nel modo corretto. Il come è molto semplice. si calcola la differenza tra i punti sull'asse x fino al centro della figura. Dopodichè si usa quella differenza per spostare i punti dall'altra parte e specchiarli correttamente.
 
